@@ -27,9 +27,9 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import RealTimeCollaborativeComments from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments';
+import RealTimeCollaborativeTrackChanges from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativetrackchanges';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
-import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -58,7 +58,7 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	RealTimeCollaborativeComments,
-	TrackChanges,
+	RealTimeCollaborativeTrackChanges,
 ];
 
 // Editor configuration.
