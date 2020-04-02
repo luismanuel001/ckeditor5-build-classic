@@ -27,9 +27,6 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import RealTimeCollaborativeComments from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments';
-// eslint-disable-next-line
-import CloudServicesCommentsAdapter from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments/cloudservicescommentsadapter';
-import CommentsRepository from '@ckeditor/ckeditor5-comments/src/comments/commentsrepository';
 import RealTimeCollaborativeTrackChanges from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativetrackchanges';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
@@ -62,8 +59,6 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	RealTimeCollaborativeComments,
 	RealTimeCollaborativeTrackChanges,
-	CloudServicesCommentsAdapter,
-	CommentsRepository,
 ];
 
 // Editor configuration.
